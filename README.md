@@ -1,36 +1,27 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Esse é o meu projeto [Next.js](https://nextjs.org/) chamado Jotion, que é uma releitura da famosa plataforma Notion!
 
-## Getting Started
+## Primeiros passos
 
-First, run the development server:
+Primeiro passo ao clonar o projeto, é instalar as suas dependências
+```bash
+npm install
+```
+
+Em seguida, para rodar a aplicação, utilizar o seguinte comando:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Em seguida, basta abrir [http://localhost:3000](http://localhost:3000) no seu navegador para visualizar a aplicação
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Lembrando que essa aplicação utiliza o convex como um back-end, caso você deseje utilizar essa integração, basta seguir a documentação:
+[Documentação do Convex](https://docs.convex.dev/get-started)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Sobre a aplicação
+A aplicação possui todas as funcionalidades similares a do original, desde a criação, edição e import de notas, até a criação de perfis e 
+edição dos mesmos.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Idealização do projeto
+Esse projeto está sendo desenvolvido com o intuíto de aprimorar os meus conhecimentos em NextJS, Typescript, e toda a sua integração com
+o back-end e correlatos.
